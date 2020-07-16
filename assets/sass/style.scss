@@ -1,0 +1,22 @@
+@import "normalize";
+@import "vars";
+
+
+/* Default styles */
+body {
+    margin: 0;
+}
+html{
+	box-sizing: border-box;	
+}
+body{
+	min-width: 320px;
+	overflow-x: hidden;
+} // убирает скролл при анимации.
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+
+/* Blocks */
