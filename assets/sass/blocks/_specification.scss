@@ -5,9 +5,10 @@
 		align-items: center;
 		padding-left: 25px;
 	}
-	/* &__item{
-		
-	} */
+	&__item--center{
+    margin-left: -15px;
+    margin-right: -15px;
+	} 
 	&__box{
 		width: 280px;
 		position: relative;
@@ -29,21 +30,21 @@
 		margin-top: 160px;
 	}
 	&__box-1::before{
-		background-image: url('../../assets/images/pointer-1.svg');
+		background-image: url('../../../assets/images/pointer-1.svg');
 		width: 229px;
 		height: 115px;
 		right: -140px;
 		top: 14px;
 	}
 	&__box-2::before{
-		background-image: url('../../assets/images/pointer-2.svg');
+		background-image: url('../../../assets/images/pointer-2.svg');
 		width: 346px;
 		height: 81px;
 		right: -308px;
 		top: -65px;
 	}
 	&__box-3::before{
-		background-image: url('../../assets/images/pointer-3.svg');
+		background-image: url('../../../assets/images/pointer-3.svg');
 		width: 258px;
 		height: 104px;
 		left: -299px;

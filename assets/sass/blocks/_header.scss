@@ -15,6 +15,7 @@
     @extend %Ubuntu-Medium;
   }
   &__btn{
+    font-size: 14px;
     color: #fff;
     background-color: transparent;
     padding: 6px 28px;
@@ -33,6 +34,10 @@
     font-size: 16px;
     line-height: 18px;
     @extend %Ubuntu-Bold;
+    &:hover{
+      text-decoration: underline;
+    }
+    
   }
 }
 
